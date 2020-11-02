@@ -32,7 +32,7 @@ body {
 /* blocks and elements */
 .testimonials-grid {
   display: grid;
-  grid-gap: 3rem;
+  grid-gap: 2.2rem 3rem;
 }
 
 .testimonial {
