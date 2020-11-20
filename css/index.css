@@ -45,7 +45,7 @@ body {
 }
 
 /* blocks and elements */
-.testimonials-grid {
+.testimonials__grid {
   display: grid;
   grid-gap: 2.2rem 3rem;
 }
@@ -143,7 +143,7 @@ body {
 
 /* desktop */
 @media screen and (min-width: 1440px) {
-  .testimonials-grid {
+  .testimonials__grid {
     max-width: 1200px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
@@ -174,7 +174,7 @@ body {
 
 /* mobile */
 @media screen and (max-width: 1439px) {
-  .testimonials-grid {
+  .testimonials__grid {
     max-width: 345px;
   }
 }
