@@ -32,6 +32,10 @@ body {
   background: var(--light-gray-blue);
 }
 
+.hidden {
+  display: none;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
