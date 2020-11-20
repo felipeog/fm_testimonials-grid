@@ -142,15 +142,29 @@ body {
   .testimonials-grid {
     max-width: 1200px;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      'daniel   daniel  jonathan kira'
+      'jeanette patrick patrick  kira';
   }
 
-  .testimonial:nth-child(1),
-  .testimonial:nth-child(5) {
-    grid-column: span 2;
+  .testimonial:nth-child(1) {
+    grid-area: daniel;
+  }
+
+  .testimonial:nth-child(2) {
+    grid-area: jonathan;
   }
 
   .testimonial:nth-child(3) {
-    grid-row: span 2;
+    grid-area: jeanette;
+  }
+
+  .testimonial:nth-child(4) {
+    grid-area: patrick;
+  }
+
+  .testimonial:nth-child(5) {
+    grid-area: kira;
   }
 }
 
